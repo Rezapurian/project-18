@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb9bd6343d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">CodingLab.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="position">
+    <div class="text">
+        <p><h2>Sticky Navigation Bar</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ducimus fuga reprehenderit totam minus architecto, officiis ipsa? Et odio vero quibusdam veritatis sunt accusamus blanditiis, quas eum laudantium ad vel culpa, quo est, sed qui non similique? Magnam ullam sit ex enim officia iure non quam odit debitis recusandae excepturi dignissimos, repellendus nulla obcaecati adipisci amet? Nostrum modi perferendis iure molestiae rem facere neque quidem pariatur nesciunt possimus magni repudiandae dolorum, optio inventore magnam harum ratione sapiente. Perspiciatis consequuntur nam consectetur officia eius autem praesentium nesciunt vero culpa inventore labore eos explicabo quos suscipit ad aliquid quasi quas nobis doloribus, neque est obcaecati. Qui debitis blanditiis, magni necessitatibus corporis dolorum, consequatur beatae nobis minima pariatur tenetur, nisi at neque. Eos dolores facilis sequi! Praesentium dolores odio hic voluptate consectetur sint facilis? Totam error atque magnam inventore minima nihil esse, provident asperiores natus, adipisci magni est reiciendis possimus delectus fugiat? Architecto ducimus quos id deleniti quisquam quam ad minus, aut accusantium eius iste eligendi labore voluptas maiores tenetur? Quia ipsam doloribus optio inventore laudantium at ullam, a, laboriosam quaerat totam eius, eos voluptates voluptatibus architecto odio iusto expedita et. Delectus quasi minima obcaecati quibusdam asperiores. Culpa corrupti quibusdam sunt ea earum ut magni asperiores odit ullam quos corporis, explicabo vero illum consequuntur, nisi minus accusamus molestiae molestias, quas cumque dicta? Voluptas optio consequatur nobis fugit illo ipsa libero asperiores, eaque distinctio voluptatibus minima laudantium ducimus ipsam commodi ad animi. Dicta voluptatibus, quidem repellendus totam velit fuga eveniet nulla. Placeat, aut aspernatur dolorem ex vitae temporibus unde aliquid natus iusto laboriosam quis deserunt, facilis tempora magni numquam at aliquam! Autem dicta, non consequuntur repellendus ex veniam modi quae? Saepe repellat asperiores, velit corrupti nisi praesentium corporis ut molestias iste cupiditate, quis fuga, voluptas iure animi tempore accusamus! Nesciunt modi consequatur vel esse.</p>
+    </div>
+
+    <script>
+        let nav = document.querySelector("nav");
+        window.addEventListener("scroll", ()=>{
+            if(document.documentElement.scrollTop > 20){
+                nav.classList.add("sticky");
+            }else {
+                nav.classList.remove("sticky")
+            }
+        })
+    </script>
+</div>
+</body>
+</html>
